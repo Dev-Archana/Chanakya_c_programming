@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    /* Program to find the area of the rectangle for a given height and breadth.*/
+    printf("Enter height and breadth of the reactangle");
+    int h=0,b=0;
+    scanf("%d%d",&h,&b);
+    printf("%d",h*b);
+    return 0;
+    
+}
