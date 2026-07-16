@@ -1,0 +1,9 @@
+// Program to print a 4 digit random number.
+#include <stdio.h>
+#include<stdlib.h>
+int main()
+{   
+   int r=rand()%10000;
+   printf("%d",r);
+    return 0;
+}
