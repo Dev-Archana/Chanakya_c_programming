@@ -1,0 +1,24 @@
+// Program to swap two numbers with the help of the third variable.
+#include <stdio.h>
+
+int main()
+{
+   int a=10,b=20;
+   printf("%d\t%d\n",a,b);
+//method 1
+      int temp=a;
+      a=b;
+      b=temp;
+//method 2
+      a=a+b;
+      b=a-b;
+      a=a-b;
+//method 3
+      a=a^b;
+      b=a^b;
+      a=a^b;
+
+   printf("%d\t%d\n",a,b);
+
+    return 0;
+}
