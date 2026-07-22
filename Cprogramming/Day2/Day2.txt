@@ -1,0 +1,60 @@
+ Type Casting 
+ Operators 
+ Control statement
+
+
+1. Calculate average of three integers using type casting.
+2. Find percentage of marks using float conversion.
+
+operators:
+1.Program to swap two numbers with the help of the third variable.
+2.Program to swap two numbers without the third variable.
+
+conditional Statements:
+1.Program to check the number is even or not
+2.Program to check if the number is positive or not.
+
+1.The program checks if  the number is even or odd.&(Without using % operator)
+2.Write a program to find the greatest among 2 numbers.
+num1=70 num2=12
+3.Program to check if the number is positive or negative
+
+Problem: Squirrel Play
+Problem Statement
+
+The squirrels in a park spend most of the day playing.
+
+The squirrels play based on the following conditions:
+
+If the temperature is between 60 and 90 (inclusive), the squirrels will play.
+If it is summer, the upper temperature limit becomes 100 instead of 90.
+
+Write a C program that reads the temperature and whether it is summer, then prints whether the squirrels will play.
+
+Input
+An integer temperature
+An integer isSummer
+1 → Summer
+0 → Not Summer
+Output
+
+Print:
+
+Squirrels Play if the squirrels will play.
+Squirrels Do Not Play otherwise.
+Sample Input 1
+Enter Temperature: 70
+Is it Summer? (1-Yes, 0-No): 0
+Sample Output 1
+Squirrels Play
+Sample Input 2
+Enter Temperature: 95
+Is it Summer? (1-Yes, 0-No): 0
+Sample Output 2
+Squirrels Do Not Play
+Sample Input 3
+Enter Temperature: 95
+Is it Summer? (1-Yes, 0-No): 1
+Sample Output 3
+Squirrels Play
+
